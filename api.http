@@ -24,3 +24,11 @@ GET http://localhost:3333/events/ab50fde3-7b6f-4b78-bd33-ac4de007f7f8
 ###
 
 GET http://localhost:3333/attendees/1/badge
+
+###
+
+GET http://localhost:3333/attendees/1/check-in
+
+###
+
+GET http://localhost:3333/events/ab50fde3-7b6f-4b78-bd33-ac4de007f7f8/attendees?query=Luiz
